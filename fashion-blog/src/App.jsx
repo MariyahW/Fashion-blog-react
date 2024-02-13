@@ -1,11 +1,8 @@
 import { useState } from 'react'
-
 import './App.css'
 import Header from './Header';
-
 import Blog from './Blog';
 import Footer from './Footer';
-
 import image1 from "../../images/blog-image-1.jpg";
 import image2 from "../../images/blog-image-2.jpg";
 

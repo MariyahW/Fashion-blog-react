@@ -31,6 +31,10 @@ h1{
 .Header{
   padding: 1rem;
 }
+.Header>h1{
+margin-bottom: -2%;
+}
+
 
 .Header>a{
   color: lightgray;
