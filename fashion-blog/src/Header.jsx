@@ -8,10 +8,10 @@ export default function Header(props) {
  })
  
     return (
-    <div>
-      {props.titles[0].main}
+    <div className='Header'>
+      <h1>{props.titles[0].main}</h1> 
       <br />
-      {props.titles[0].sub}
+      <h2>{props.titles[0].sub}</h2> 
       <br />
       {nav}</div>
   )

@@ -7,7 +7,7 @@ export default function Article(props) {
     <time datetime={article.date}>{article.date}</time>
     <h2>{article.title}</h2>
 
-    <img alt="..." src= {article.image}></img>
+    <img src={article.image} />
 
     <p>{article.text}</p>
 
