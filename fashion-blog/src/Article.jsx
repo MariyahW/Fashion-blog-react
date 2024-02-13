@@ -10,7 +10,7 @@ export default function Article(props) {
     <img src={article.image} />
 
     <p>{article.text}</p>
-
+    <a className='continue' href="..." >Continues...</a>
     
 </article>
     )
